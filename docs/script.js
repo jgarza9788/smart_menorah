@@ -59,31 +59,60 @@ function checkDate(overrideDate)
 
     if (thisDate < 20231207)
     {
-    document.getElementById('text').textContent  = 'It is not Hannukah Yet';
+        document.getElementById('text').textContent  = 'It is not Hannukah Yet';
     }
 
     if (thisDate > 20231214)
     {
-    document.getElementById('text').textContent  = 'Hannukah is Over';
+        document.getElementById('text').textContent  = 'Hannukah is Over';
+
+        document.getElementById('0').classList.remove('active');
+        document.getElementById('1').classList.remove('active');
+        document.getElementById('2').classList.remove('active');
+        document.getElementById('3').classList.remove('active');
+        document.getElementById('4').classList.remove('active');
+        document.getElementById('5').classList.remove('active');
+        document.getElementById('6').classList.remove('active');
+        document.getElementById('7').classList.remove('active');
+        document.getElementById('8').classList.remove('active');
     }
 
     if (thisDate == 20231207)
     {
     console.log('day 1 of hannukah');
+
+    document.getElementById('0').classList.remove('active');
+    document.getElementById('1').classList.remove('active');
+    document.getElementById('2').classList.remove('active');
+    document.getElementById('3').classList.remove('active');
     document.getElementById('4').classList.add('active');
+    document.getElementById('5').classList.remove('active');
+    document.getElementById('6').classList.remove('active');
+    document.getElementById('7').classList.remove('active');
     document.getElementById('8').classList.add('active');
     }
     if (thisDate == 20231208)
     {
     console.log('day 2 of hannukah');
+    document.getElementById('0').classList.remove('active');
+    document.getElementById('1').classList.remove('active');
+    document.getElementById('2').classList.remove('active');
+    document.getElementById('3').classList.remove('active');
     document.getElementById('4').classList.add('active');
+    document.getElementById('5').classList.remove('active');
+    document.getElementById('6').classList.remove('active');
     document.getElementById('7').classList.add('active');
     document.getElementById('8').classList.add('active');
     }
     if (thisDate == 20231209)
     {
     console.log('day 3 of hannukah');
+    document.getElementById('0').classList.remove('active');
+    document.getElementById('1').classList.remove('active');
+    document.getElementById('2').classList.remove('active');
+    document.getElementById('3').classList.remove('active');
     document.getElementById('4').classList.add('active');
+    document.getElementById('5').classList.remove('active');
     document.getElementById('6').classList.add('active');
     document.getElementById('7').classList.add('active');
     document.getElementById('8').classList.add('active');
@@ -91,6 +120,10 @@ function checkDate(overrideDate)
     if (thisDate == 20231210)
     {
     console.log('day 4 of hannukah');
+    document.getElementById('0').classList.remove('active');
+    document.getElementById('1').classList.remove('active');
+    document.getElementById('2').classList.remove('active');
+    document.getElementById('3').classList.remove('active');
     document.getElementById('4').classList.add('active');
     document.getElementById('5').classList.add('active');
     document.getElementById('6').classList.add('active');
@@ -100,6 +133,9 @@ function checkDate(overrideDate)
     if (thisDate == 20231211)
     {
     console.log('day 5 of hannukah');
+    document.getElementById('0').classList.remove('active');
+    document.getElementById('1').classList.remove('active');
+    document.getElementById('2').classList.remove('active');
     document.getElementById('3').classList.add('active');
     document.getElementById('4').classList.add('active');
     document.getElementById('5').classList.add('active');
@@ -110,6 +146,8 @@ function checkDate(overrideDate)
     if (thisDate == 20231212)
     {
     console.log('day 6 of hannukah');
+    document.getElementById('0').classList.remove('active');
+    document.getElementById('1').classList.remove('active');
     document.getElementById('2').classList.add('active');
     document.getElementById('3').classList.add('active');
     document.getElementById('4').classList.add('active');
@@ -121,6 +159,7 @@ function checkDate(overrideDate)
     if (thisDate == 20231213)
     {
     console.log('day 7 of hannukah');
+    document.getElementById('0').classList.remove('active');
     document.getElementById('1').classList.add('active');
     document.getElementById('2').classList.add('active');
     document.getElementById('3').classList.add('active');
